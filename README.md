@@ -1,5 +1,17 @@
 # TwitterTest
 
+I used Angular-cli because is easy to generate new functionality besides angular allow bring data to the client
+without rereshing the page.
+
+My time: I spent 5 hours building the client, I had to use a sort of proxy made in nodejs as
+I had problem with the CORS this is the repository: https://github.com/vladeye/twitter-test-back
+
+From the architecture point of view I develope mostly dump components, concentrating the bussiness rules just
+en a few of them, this allow me recicle the components if I need to
+
+Developing the back took me 4 hours it makes a search of the latest tweets and create a stream sending back to the
+client the next tweets.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server
