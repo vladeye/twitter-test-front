@@ -1,0 +1,11 @@
+<section class="twitterapp">
+  <app-tweet-list-header
+    (add)="onAddTweet($event)"
+  ></app-tweet-list-header>
+  <app-tweet-list
+    [tweets]="tweets"
+  ></app-tweet-list>
+  <app-tweet-list-footer
+    [tweets]="tweets"
+  ></app-tweet-list-footer>
+</section>

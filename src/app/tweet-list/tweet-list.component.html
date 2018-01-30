@@ -1,0 +1,8 @@
+<section class="main" *ngIf="tweets.length >= 5">
+  <ul class="tweet-list">
+    <li *ngFor="let tweet of tweets" [class.completed]="tweets.complete">
+      <app-tweet-list-item
+        [tweet]="tweet"></app-tweet-list-item>
+    </li>
+  </ul>
+</section>
